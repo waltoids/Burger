@@ -1,5 +1,5 @@
 // Import MySQL connection.
-const connection = require("../config/connection.js");
+const connection = require('./connection');
 
 // Object for all our SQL statement functions.
 const orm = {
