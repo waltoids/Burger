@@ -1,5 +1,5 @@
 # Burger
-https://burgers-walterjoy.herokuapp.com/ - automatic!
+[Link to deployed site](https://burgers-walterjoy.herokuapp.com/)
 
 # Table of Contents
 - [Description](#description)
