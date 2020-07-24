@@ -11,7 +11,7 @@
       <ul class = "list-group mb-4">
         {{#each burgers}}
           {{#unless devoured}}
-            <li class = "list-group-item d-flex justify-content-between align-items-center"> {{ burger_name }} <button class = "change-devour btn btn-primary" data-id="{{id}}" data-newDevour="{{devoured}}">Devour</button></li>
+            <li class = "list-group-item d-flex justify-content-between align-items-center burger"> {{ burger_name }} <button class = "change-devour btn btn-primary" data-id="{{id}}" data-newDevour="{{devoured}}">Devour</button></li>
           {{/unless}}
         {{/each}}
       </ul>
@@ -22,7 +22,7 @@
       <ul class = "list-group mb-4">
         {{#each burgers}}
           {{#if devoured}}
-          <li class = "list-group-item d-flex justify-content-between align-items-center"> {{ burger_name }} <button class = "change-devour btn btn-danger" data-id="{{id}}" data-newDevour = "{{devoured}}">Undevour</li>
+          <li class = "list-group-item d-flex justify-content-between align-items-center burger"> {{ burger_name }} <button class = "change-devour btn btn-danger" data-id="{{id}}" data-newDevour = "{{devoured}}">Undevour</li>
           {{/if}}
         {{/each}}
       </ul>
